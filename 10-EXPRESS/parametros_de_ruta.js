@@ -11,7 +11,7 @@ app.listen(PUERTO, () => {
 });
 
 app.get('/', (req, res) => {
-    res.end('Bienvenido al servidor de equipos Argentinos!');
+    res.send('Bienvenido al servidor de equipos Argentinos!');
 });
 
 /**
